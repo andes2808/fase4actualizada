@@ -1,0 +1,76 @@
+
+
+body{
+    background-color: rgb(163, 247, 156);
+}
+title{
+    color: white;
+}
+header{
+    background-color:rgb(240, 165, 0);  
+   
+}
+titulo{
+    background-size: lightyellow;
+}
+ 
+.headermenu{
+    background-color: black;
+    height: 40px;
+}
+nav{
+    margin: -38px;
+}
+ul,ol{
+    list-style: none;
+}
+.nav1 li   a{
+    background-color: mintcream;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    
+    
+}
+.nav1 > li{
+    float: left;
+}
+.nav1  li a:hover{
+    
+    background-color: brown;
+}
+.nav1 li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav1 li:hover > ul{
+    display: block;
+}
+nav li ul li{
+    position: relative;
+}
+nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+section{
+    background-color: rgb(8, 32, 50);
+    grid-column: 1/4;
+}
+aside{
+    background-color:rgb(255, 255, 255);
+    grid-column: 4/5;
+}
+footer{
+    background-color: rgb(192, 196, 201);
+}
+
+main{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr  ;
+}
+
